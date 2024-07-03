@@ -29,7 +29,7 @@ describe("calculator", () => {
       .signers([calculatorPair])
       .rpc();
 
-    //We fecth the account and read if the string is actually in the account
+    //We fecth the account and read if the string is actually in the account.
     const account = await program.account.calculator.fetch(
       calculatorPair.publicKey
     );
