@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::entrypoint::ProgramResult;
 
-declare_id!("2VsDgBxxmv6cyKAJjjmKHggt777rN4ELvQ2W6yCzzpqp");
+declare_id!("H8jZ9a34jANSwpE8YBHyXWJLPkbwJXPLu8aeHJ5yznnd");
 
 #[program]
 pub mod calculator {
