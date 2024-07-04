@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::entrypoint::ProgramResult;
 
-declare_id!("H8jZ9a34jANSwpE8YBHyXWJLPkbwJXPLu8aeHJ5yznnd");
+declare_id!("49vtggxyFGy6nZchtsDcpGcUNz5mxAE4P7DozgRnKEKH");
 
 #[program]
 pub mod calculator {
@@ -27,7 +27,7 @@ pub mod calculator {
 
 #[derive(Accounts)]
 pub struct Create<'info> {
-    #[account(init, payer=user, space=8 + 128 + 8)]
+    #[account(init, payer=user, space=264)]
     pub calculator: Account<'info, Calculator>,
 
     #[account(mut)]
