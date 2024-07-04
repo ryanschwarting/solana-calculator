@@ -18,6 +18,7 @@ pub mod calculator {
         calculator.result = num1 + num2;
         Ok(())
     }
+
     pub fn multiply(ctx: Context<Multiply>, num1: i64, num2: i64) -> ProgramResult {
         let calculator = &mut ctx.accounts.calculator;
         calculator.result = num1 * num2;
